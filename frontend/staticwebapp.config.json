@@ -15,9 +15,9 @@
             "azureActiveDirectory": {
                 "userDetailsClaim": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
                 "registration": {
-                    "openIdIssuer": "https://login.microsoftonline.com/<YOUR_AAD_TENANT_ID>",
-                    "clientIdSettingName": "AAD_CLIENT_ID",
-                    "clientSecretSettingName": "AAD_CLIENT_SECRET"
+                    "openIdIssuer": "https://login.microsoftonline.com/94aa4206-a222-4c9e-a98b-ce0329cc36f3",
+                    "clientIdSettingName": "b69e3ab8-3be8-403b-8a60-82db37df79b2",
+                    "clientSecretSettingName": "lba7Q~lI2gg2xiB-oEc5uxKQpMr56jNy0g5fR"
                 },
                 "login": {
                     "loginParameters": [
