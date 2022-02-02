@@ -15,13 +15,14 @@
             "azureActiveDirectory": {
                 "userDetailsClaim": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
                 "registration": {
-                    "openIdIssuer": "https://login.microsoftonline.com/94aa4206-a222-4c9e-a98b-ce0329cc36f3",
+                    "openIdIssuer": "https://login.microsoftonline.com/94aa4206-a222-4c9e-a98b-ce0329cc36f3/v2.0",
                     "clientIdSettingName": "b69e3ab8-3be8-403b-8a60-82db37df79b2",
                     "clientSecretSettingName": "lba7Q~lI2gg2xiB-oEc5uxKQpMr56jNy0g5fR"
                 },
                 "login": {
                     "loginParameters": [
-                        "resource=https://graph.microsoft.com"
+                        "response_type=code id_token",
+                         "scope=openid offline_access profile https://graph.microsoft.com/User.Read"
                     ]
                 }
             }
