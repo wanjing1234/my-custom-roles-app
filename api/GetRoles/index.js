@@ -15,6 +15,8 @@ module.exports = async function (context, req) {
             roles.push(role);
         }
     }
+    
+    console.log(roles);
 
     context.res.json({
         roles
